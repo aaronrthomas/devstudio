@@ -75,7 +75,7 @@ const About = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 mb-6 drop-shadow-lg tracking-tight animate-gradient-x">
-                About DesignCraft
+                About Devstudio
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                 <p>
