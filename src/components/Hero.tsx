@@ -15,23 +15,23 @@ const Hero = () => {
 			id="home"
 			className="pt-20 pb-16 relative overflow-hidden"
 			style={{
-				background: 'linear-gradient(135deg, #f0f4ff 0%, #f8fafc 100%)', // matches Services page
+				background: 'linear-gradient(135deg, #f0f4ff 0%, #f8fafc 100%)',
 			}}
 		>
 			{/* Floating animated icons */}
 			<style>
 				{`
           @keyframes float {
-            0% { transform: translateY(0);}
-            50% { transform: translateY(-18px);}
-            100% { transform: translateY(0);}
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-18px); }
+            100% { transform: translateY(0); }
           }
         `}
 			</style>
 			{floatingIcons.map(({ Icon, className, style }, i) => (
 				<div
 					key={i}
-					className={`absolute pointer-events-none opacity-70 animate-[float_4s_ease-in-out_infinite]`}
+					className="absolute pointer-events-none opacity-70 animate-[float_4s_ease-in-out_infinite]"
 					style={{
 						...style,
 						position: 'absolute',
@@ -43,6 +43,7 @@ const Hero = () => {
 					<Icon className={className + ' w-10 h-10 drop-shadow-lg'} />
 				</div>
 			))}
+
 			<div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 				<div className="grid lg:grid-cols-2 gap-12 items-center min-h-[70vh]">
 					<div className="space-y-8">
@@ -94,8 +95,8 @@ const Hero = () => {
 						</div>
 					</div>
 
-					{/* Right side: Spline 3D scene in a black box with gradients */}
-					<div className="relative w-full h-96 flex items-center justify-center">
+					{/* Spline 3D robot visible only on screens > 640px */}
+					<div className="hidden sm:flex relative w-full h-96 items-center justify-center">
 						<div
 							className="absolute inset-0 rounded-2xl z-0 flex items-center justify-center"
 							style={{
@@ -108,7 +109,6 @@ const Hero = () => {
 								<Spline scene="https://prod.spline.design/bp4wv5BXL-dC5DVm/scene.splinecode" />
 							</div>
 						</div>
-						{/* Extra floating elements */}
 						<div className="absolute -top-4 -right-4 w-16 h-16 bg-yellow-400 rounded-full animate-pulse shadow-xl z-20"></div>
 						<div
 							className="absolute -bottom-4 -left-4 w-12 h-12 bg-green-400 rounded-full animate-pulse shadow-lg z-20"
@@ -117,6 +117,7 @@ const Hero = () => {
 					</div>
 				</div>
 			</div>
+
 			{/* Gradient animation keyframes */}
 			<style>
 				{`

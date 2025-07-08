@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xl">D</span>
               </div>
-              <span className="ml-3 text-xl font-bold">DesignCraft</span>
+              <span className="ml-3 text-xl font-bold">Devstudio</span>
             </div>
             <p className="text-gray-400">
               Creating exceptional digital experiences through innovative web development and user-centered design.
@@ -43,8 +43,8 @@ const Footer = () => {
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-3" />
-                <a href="mailto:devstudio@gmail.com" className="hover:text-white transition-colors duration-200">
-                  devstudio@gmail.com
+                <a href="mailto:devstudiowork1@gmail.com" className="hover:text-white transition-colors duration-200">
+                  devstudiowork1@gmail.com
                 </a>
               </div>
               <div className="flex items-center">
