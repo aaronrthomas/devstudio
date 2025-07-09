@@ -189,12 +189,6 @@ const Portfolio = () => {
     <p className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 mb-6 drop-shadow-sm">
       Explore a curated selection of projects that blend thoughtful design with seamless functionality.
     </p>
-    <p className="mb-4">
-      Each piece reflects our passion for creating digital experiences that are not only visually compelling but also user-centered and performance-driven.
-    </p>
-    <p className="mb-4">
-      From intuitive UI/UX designs to fully responsive websites, our work spans a variety of industries and styles — tailored to meet unique client goals. Whether it's a bold landing page, a user-friendly mobile app interface, or a complete website overhaul, we focus on delivering impactful results through clean design and efficient code.
-    </p>
     <p className="font-medium text-gray-800">
       We don’t just build websites — we craft digital experiences that connect, engage, and convert.
     </p>

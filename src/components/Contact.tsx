@@ -134,8 +134,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: 'aaronrthomas88@gmail.com',
-      link: 'mailto:aaronrthomas88@gmail.com'
+      details: 'devstudiowork1@gmail.com',
+      link: 'mailto:devstudiowork1@gmail.com'
     },
     {
       icon: Phone,
